@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    flex-wrap: wrap;
+}
+.nav {
+    display: flex;
+    border: 1px solid black;
+    justify-content: start;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(52, 52, 54);
+    color: white;
+}
+.circle {
+    display: flex; 
+    flex-direction: column;
+    margin: 20px;
+
+}
+.circle1 {
+    display: flex;
+    /* color: transparent; */
+    gap: 3px;
+}
+.circle2 {
+    display: flex;
+    /* color: transparent; */
+    gap: 3px;
+}
+.circle1 > .satu {
+    background-color: yellow;
+    border: 1px solid black;
+    margin-bottom: 3px;
+    border-top-left-radius: 25px;
+    color: transparent;
+}
+.circle1 > .dua {
+    background-color: yellow;
+    border: 1px solid black;
+    border-top-right-radius: 25px;
+    color: transparent;
+}
+.circle2 > .tiga {
+    background-color: yellow;
+    border: 1px solid black;
+    border-bottom-left-radius: 25px;
+    color: transparent;
+}
+.circle2 > .empat {
+    background-color: yellow;
+    border: 1px solid black;
+    border-bottom-right-radius: 25px;
+    color: transparent;
+}
+.satu, .dua, .tiga, .empat {
+    width: 25px;
+    height: 25px;
+}
+.container1 {
+    margin: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgb(52, 52, 54);
+    color: white;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.sub-container {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.line {
+    
+    border: transparent;
+    border-top: 1px solid white;
+    width: 70%;
+    position: relative;
+    top: 10px;
+}
+.line2 {
+    display: flex;
+    position: relative;
+    width: 75%;
+}
+.details {
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+.registerDetails {
+    width: 75%;
+    display: flex;
+    position: relative;
+}
+
+.register {
+    width: 30%;
+}
+.line3 {
+    width: 70%;
+    position: relative;
+    top: 20px;
+    border: none;
+    border-top: 1px solid white;
+}
+
+.one, .two {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: yellow;
+    color: transparent;
+}
+.three, .four {
+    width: 20px; 
+    height: 20px;
+    border: 1px solid black;
+    background-color: yellow;
+    color: transparent;
+}
+.one {
+    border-top-left-radius: 30px;
+}
+.two {
+    border-top-right-radius: 30px;
+}
+.three {
+    border-bottom-left-radius: 30px;
+}
+.four {
+    border-bottom-right-radius: 30px;
+}
+
+.title {
+    width: 75%;
+    display: flex;
+
+}
+.kotak {
+    width: 70%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: 20px;
+    padding: 15px;
+}
+
+.nama {
+    width: 30%;
+}
+.radio{
+    display: flex;
+    width: 75%;
+}
+.kotak2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: yellow;
+    height: 40px;
+    border-radius: 15px;
+    width: 75%;
+    /* outline: none; */
+    border: none;
+}
+footer {
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(52, 52, 54);
+    flex-wrap: wrap;
+    color: white;
+}
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.sub-footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.logo-up {
+    display: flex;
+    gap: 3px;
+}
+.logo-bottom {
+    display: flex;
+    gap: 3px;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-left, .footer-bottom-right {
+    display: flex;
+}
+.footer-bottom-left {
+    margin: 10px;
+    gap: 30px;
+}
+.footer-bottom-right {
+    margin: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+@media (max-width: 400px){
+    body {
+        min-width: 400px;
+    }
+   
+}
