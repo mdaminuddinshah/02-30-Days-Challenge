@@ -239,5 +239,34 @@ footer {
     body {
         min-width: 400px;
     }
-   
+   .title {
+    width: 100%;
+   }
+   .kotak2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+   }
+   .registerDetails {
+    width: 100%;
+   }
+   .line2 {
+    width: 100%;
+   }
+   button {
+    width: 100%;
+   }
+   .agree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   }
+   .nav {
+    padding-left:35px;
+   }
+   .sub-container {
+    width: 100%;
+    text-align: center;
+   }
 }
